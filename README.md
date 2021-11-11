@@ -1,6 +1,6 @@
 # lkif21-23Game
 
-Zum bearbeiten mit Netbeans:
+Zum Bearbeiten mit Netbeans:
 1.) Initial: Quelldateien aus dem Repository klonen (kopieren)
     a) Öffne Netbeans und wähle im Menü Team > Git > Clone...
     b) Setze als Repository URL https://github.com/FrauPe/lkif21-23Game und für den späteren Commit Deinen eigenen GutHub-Accoutn ein; Next
