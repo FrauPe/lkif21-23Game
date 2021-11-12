@@ -1,5 +1,5 @@
 # lkif21-23Game
-
+<pre>
 Zum Bearbeiten mit Netbeans:
 1.) Initial: Quelldateien aus dem Repository klonen (kopieren)
     a) Öffne Netbeans und wähle im Menü Team > Git > Clone...
@@ -10,3 +10,4 @@ Zum Bearbeiten mit Netbeans:
     f) Die Sourcen landen nur leider nicht dort, sondern müssen noch aus dem beim Klonen angegebenen Pfad dort hinein verschoben werden - ok hier ist Netbeans echt sinnfrei :-(
 2.) Bearbeiten wie ein normales Netbeans-Projekt - Achtung: Fasse nie die Klassen an, die nicht zu Deinen Aufgaben gehören.
 3.) Beachtet beizeiten die Hinweise zum Hochladen von Änderungen (commit)
+</pre>
