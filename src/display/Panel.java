@@ -13,13 +13,15 @@ public class Panel extends JPanel{
     }
     
     private void createPanel(){
+        //Sets the size of the panel
         setPreferredSize(new Dimension(width, height));
         setLayout(null);
     }
     
     @Override
     public void paintComponent(Graphics g){
-        g.setColor(Color.BLACK);
+        //Sets the background of the Panel
+        g.setColor(new Color(180, 180, 180));
         g.fillRect(0, 0, width, height);
     }
     
