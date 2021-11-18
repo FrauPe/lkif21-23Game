@@ -17,7 +17,7 @@ import java.net.SocketException;
  * @since   0.1
  * @version 1.1
  */
-public abstract class Endpoint {
+public abstract class Endpoint implements IEndpoint {
     
     /**
      * Sending the Value {@value} indicates that nothing will be sent anymore.
@@ -54,25 +54,6 @@ public abstract class Endpoint {
      * @throws IOException If building the Connection failed
      */
     protected abstract Socket connectSocket(int port) throws IOException;
-
-    /**
-     * Handles an incoming {@code String}.
-     * 
-     * @param string A {@code String} that has been sent by the other {@code Endpoint}
-     */
-    protected abstract void readString(String string);
-
-    /**
-     * Handles an incoming {@code Object} that implements {@code Serializable}.
-     * 
-     * @param object A {@code Object} that has been sent by the other {@code Endpoint}
-     */
-    protected abstract void readObject(Object object);
-
-    /**
-     * Is called when the other {@code Endpoint} sent {@code DISCONNECTED}.
-     */
-    protected abstract void onDisconnect();
 
 
     /**
