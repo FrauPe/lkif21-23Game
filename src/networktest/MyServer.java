@@ -44,5 +44,5 @@ public class MyServer extends Server {
     {
         sendString("Verbindung beendet.");
     }
-
+    
 }
